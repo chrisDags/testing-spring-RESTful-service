@@ -33,4 +33,7 @@ public class BeerOrderStatusChangeEvent extends ApplicationEvent {
     public OrderStatusEnum getPreviousStatus() {
         return previousStatus;
     }
+    public BeerOrder getBeerOrder(){
+        return (BeerOrder) this.source;
+    }
 }

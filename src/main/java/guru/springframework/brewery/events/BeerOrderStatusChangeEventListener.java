@@ -29,7 +29,7 @@ import org.springframework.web.client.RestTemplate;
 @Component
 @Slf4j
 public class BeerOrderStatusChangeEventListener {
-
+//
     RestTemplate restTemplate;
     DateMapper dateMapper = new DateMapper();
 
